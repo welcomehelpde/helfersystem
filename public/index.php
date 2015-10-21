@@ -13,7 +13,8 @@ $free_pages = array(
     'shifts_json_export',
     'shifts',
     'atom',
-    'login'
+    'login',
+    'api_key'
 );
 
 // Gewünschte Seite/Funktion
@@ -134,7 +135,11 @@ if (isset($_REQUEST['p']) && preg_match("/^[a-z0-9_]*$/i", $_REQUEST['p']) && (i
     require_once realpath(__DIR__ . '/../includes/pages/guest_credits.php');
     $title = credits_title();
     $content = guest_credits();
-  } else {
+  } elseif ($p == "api_key") {
+    require_once realpath(__DIR__ . '/../includes/controller/api_key.php');
+    $content = getAPIKey();
+  } 
+  else {
     require_once realpath(__DIR__ . '/../includes/pages/guest_start.php');
     $content = guest_start();
   }

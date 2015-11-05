@@ -102,7 +102,7 @@ function make_navigation() {
       "user_shifts" => shifts_title(),
       "news" => news_title(),
 //      "user_meetings" => meetings_title(),
-//      "angeltypes" => angeltypes_title(),
+      "angeltypes" => angeltypes_title(),
 //      "user_questions" => questions_title() 
   );
   
@@ -118,7 +118,6 @@ function make_navigation() {
       "admin_active" => admin_active_title(),
       "admin_free" => admin_free_title(),
       "shifttypes" => shifttypes_title(),
-	  "angeltypes" => angeltypes_title(),
       "admin_rooms" => admin_rooms_title(),
       "admin_groups" => admin_groups_title(),
       "admin_import" => admin_import_title(),

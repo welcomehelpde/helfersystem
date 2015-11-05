@@ -11,3 +11,5 @@ test/coverage
 includes/pages/guest_login.old
 *.htaccess
 *.db
+*.oldErding
+*.old

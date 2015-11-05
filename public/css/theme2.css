@@ -7060,3 +7060,24 @@ form.admin-user-form input[type="radio"]:first-child {
     margin-top: 25px;
   }
 }
+ /* Cookie Notice */
+
+        div.pn_notebox{
+            padding: 8px;
+            text-align: center;
+            background-color: #FCFFDE;
+            border: 1px solid #FFC457;
+        }
+        a.pn_approval{
+            background-color: #FFC457;
+            color: #fff;
+            padding: 2px 8px;
+        }
+        div.pn_approved{
+            background-color: #C9FFE6;
+            border-color: #00DE76;
+        }
+        div.pn_removed{
+            background-color: #FAE3EC;
+            border-color: #E00958;
+}
